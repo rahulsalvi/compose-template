@@ -1,4 +1,4 @@
-FROM debian:13.1
+FROM debian:13.2
 
 RUN mkdir -p /usr/local/share/ca-certificates
 COPY ext/pki/tls/*.crt /usr/local/share/ca-certificates
